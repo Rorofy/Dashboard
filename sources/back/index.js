@@ -66,11 +66,11 @@ var userDatas = mongooseService.Schema({
 
 var User = mongooseService.model("User", userDatas);
 
-const githubClientId = "af14d39da038e3978430";
-const githubClientSecret = "54a3c339e722234ad0040f06e347c393b6257ee8";
+const githubClientId = "xxxxxxxxxxxxxxxxxxx";
+const githubClientSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
-const spotifyClientId = "7bc91382df86470ca2c58ed007c5efbf";
-const spotifyClientSecret = "390a5de8bf0c4b3db264e648aa2bf4d5";
+const spotifyClientId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const spotifyClientSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 serverRouter
   .route("/")

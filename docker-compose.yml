@@ -1,0 +1,36 @@
+version: '3.7'
+services:
+    front:
+      container_name: front
+      build:
+        context: ./sources/front
+        dockerfile: Dockerfile
+      volumes:
+        - './sources/front:/front'
+      ports:
+        - '3000:3000'
+      depends_on:
+        - back
+      environment:
+        - NODE_ENV=development
+
+    mongo:
+        container_name: mongo
+        image: mongo
+        command: mongod --port 27018  --bind_ip_all
+
+    back:
+        container_name: back
+        build:
+            context: ./sources/back
+            dockerfile: Dockerfile
+        volumes:
+            - './sources/back:/back'
+        ports:
+            - '8000:8000'
+        links:
+            - mongo
+        depends_on:
+            - mongo
+        environment:
+            - NODE_ENV=development

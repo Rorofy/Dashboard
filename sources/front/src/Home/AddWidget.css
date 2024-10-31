@@ -1,0 +1,76 @@
+.header {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    position: relative;
+    font-size: 4vh;
+    margin-top: 2vh;
+}
+
+.subTitle {
+    position: relative;
+    font-size: 3vh;
+    margin-top: -2vh;
+    color: darkgrey;
+}
+
+.serviceIcon {
+    margin-right: 5vh;
+    margin-left: 2vh;
+}
+
+.moneyIcon {
+    margin-right: 5vh;
+    margin-left: 2vh;
+    margin-top: 0.4vh;
+}
+.serviceText {
+    font-size: larger;
+}
+
+.servicePos {
+    margin-right: 1.5vh;
+}
+
+.serviceCard {
+    margin-top: 2vh;
+    box-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+
+.serviceCardAction {
+    display: flex;
+    height: 8vh;
+}
+
+.moneyCard {
+    margin-top: 2vh;
+    box-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+    height: 8vh;
+}
+
+.widgetIcon {
+    position: absolute;
+    right: 80%;
+}
+
+.configInput {
+    width: 30vh;
+    margin-top: 0.5vh;
+}
+
+.createButton {
+    margin-top: 2vh;
+    align-items: center;
+    text-align: center;
+}
+
+.moneySelect {
+    margin-top: -7vh;
+    margin-left: 13vh;
+    width: 25vh;
+}

@@ -1,0 +1,29 @@
+.headerDiv {
+    display: flex;
+    height: 8vh;
+    overflow: visible;
+}
+
+.userName {
+    position: absolute;
+    font-size: 7vh;
+    margin: auto;
+    margin-left: 9vh;
+    margin-top: -1vh;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+
+.iconBtn {
+    width: 7vh;
+    height: 7vh;
+    margin: auto;
+    margin-left: 0vh;
+    margin-top: 1vh;
+    background: white;
+}
+
+.contentDiv {
+    height: 40vh;
+    display: flex;
+}

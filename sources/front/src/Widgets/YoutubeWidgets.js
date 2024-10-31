@@ -9,7 +9,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import iconYoutube from "../assets/icons/32/youtube.png";
 import userRequests from "../apiConnector";
 
-const API_KEY = "AIzaSyAnGQtu8uFSZBVFdjgvff6o5HLcytclPjM";
+const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 const useStyles = makeStyles((theme) => ({
   card: {

@@ -13,7 +13,7 @@ import iconThunder from "./../assets/icons/weather/thunder.png";
 import iconSnow from "./../assets/icons/weather/snow.png";
 import iconMist from "./../assets/icons/weather/mist.png";
 
-const API_KEY = "4a2cdbd6fa8bc32d50c64a41257ea373";
+const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 const useStyles = makeStyles((theme) => ({
   root: {
